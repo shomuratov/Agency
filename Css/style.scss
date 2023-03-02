@@ -1,0 +1,114 @@
+@import 'base';
+
+
+/*========================= header =========================*/
+
+.header {
+    height: 79px;
+}
+
+.header__container {
+    padding-top: 17px;
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.menu_list {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+
+}
+
+.button_blue {
+    margin-left: 185px;
+}
+
+/*========================= Main =========================*/
+
+.design_background {
+    height: 740px;
+    background-color: #f2f7fe;
+}
+
+.creative_design {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 101px;
+}
+
+.block_text {
+    font-size: 80px;
+    line-height: 90px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.block_paragraf {
+    margin-bottom: 40px;
+}
+
+
+.teni {
+    z-index: 1;
+    position: absolute;
+    margin-right: 80px;
+    margin-bottom: 82px;
+    right: 0;
+    bottom: 0;
+}
+
+.section_img {
+    z-index: 3;
+}
+
+
+
+.trusted_text {
+    text-align: center;
+}
+
+.trusted {
+    background-color: #ffffff;
+    height: 519px;
+}
+
+
+.trusted_title {
+    margin-top: 80px;
+    margin-bottom: 25px;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+
+
+
+.Explore_what {
+    height: 2317px;
+    color: #ffffff;
+    background-color:  #151515;
+}
+
+
+.explore_title {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+}
+
+.explore_text {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.explore_paragraf {
+    line-height: 1;
+}
+
+.explore_work {
+    font-size: 28px;
+    padding-top: 40px;
+    text-decoration-line: underline;
+}
